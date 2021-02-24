@@ -69,6 +69,32 @@ public class DrinkVendingMachine {
         this.availableCredit += user.getCredit(credit);
     }
 
+	public BRANDS getBrandName() {
+		return brandName;
+	}
+
+	public void setBrandName(BRANDS brandName) {
+		this.brandName = brandName;
+	}
+
+	public float getAvailableCredit() {
+		return availableCredit;
+	}
+
+	public void setAvailableCredit(float availableCredit) {
+		this.availableCredit = availableCredit;
+	}
+
+	public ArrayList<Snack> getDrinkList() {
+		return drinkList;
+	}
+
+	public void setDrinkList(ArrayList<Snack> drinkList) {
+		this.drinkList = drinkList;
+	}
+
+
+
     //===============================
     //===  'get'ors
     //===============================

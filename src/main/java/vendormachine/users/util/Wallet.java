@@ -3,7 +3,7 @@ package vendormachine.users.util;
 public class Wallet {
 
     private String brand = "Generic";
-    private float storedCredit = 0.5f; // using f after a decimal value treats it the as a float(rather than a double)
+    private float storedCredit = 0; // using f after a decimal value treats it the as a float(rather than a double)
 
     public Wallet(){}
 
